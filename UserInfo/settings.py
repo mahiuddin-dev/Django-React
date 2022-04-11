@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['djangoreact2022.herokuapp.com','bespoke-nougat-375bc2.netlify.app']
+ALLOWED_HOSTS = ['djangoreact2022.herokuapp.com','jolly-starburst-027fed.netlify.app']
 
 
 # Application definition
@@ -141,7 +141,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "https://reactdjango2022.herokuapp.com",
     "http://reactdjango2022.herokuapp.com",
-    "https://bespoke-nougat-375bc2.netlify.app/",
-    "http://bespoke-nougat-375bc2.netlify.app/",
+    "https://jolly-starburst-027fed.netlify.app",
 ]
 django_heroku.settings(locals())
